@@ -40,5 +40,16 @@ public void escribirMensaje(){
   //println(dotProduct);
   textSize(20);
   fill(0);
-  text(dotProduct,20,20);
+  text(dotProduct,70,40);
+  if(dotProduct < 0){
+  text("La estrella esta atras",20,20);
+}else{
+if(dotProduct > 0){
+  text("La estrella esta adelante",20,20);
+}else{
+  text("El tesoro esta en la misma linea",20,20);
+
+
+}
+}
 }
